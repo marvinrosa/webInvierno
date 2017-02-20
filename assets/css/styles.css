@@ -1,3 +1,19 @@
 body{
 	
+	background-image: url(../img/fondo.gif);
+	background-repeat: repeat;
+}
+
+
+
+.bodyContent{
+	position: relative;
+	margin: auto;
+	width: 90%;
+	height: 60%;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: red;
 }
