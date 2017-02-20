@@ -11,9 +11,48 @@ body{
 	margin: auto;
 	width: 90%;
 	height: 60%;
-	top:0;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	background-color: yellow;
+}
+.content{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.banner{
+	border: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+}
+.images{
+	width: 100%;
+	height: 175px;
+}
+
+.main{
 	background-color: red;
 }
+
+.articles{
+
+   width: 70%;
+  float: left;
+
+}
+
+aside{
+  top:20px;
+  width:30%;
+  padding-top: 80px;
+  float: right;
+}
+
+
+header nav ul{
+  float:left;
+}
+
+footer{
+	background-color: green;
+}
+
