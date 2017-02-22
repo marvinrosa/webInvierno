@@ -65,3 +65,24 @@ footer{
   background: red;
   top:50px;
 }
+
+.card{
+ 
+  max-width: 30%;
+  height: auto;
+
+}
+
+.text{
+  background-color: blue;
+  height: 15px;
+  padding: 5px;
+  max-width:500px; 
+}
+
+.content{
+  background-color: white;
+  height: 15px;
+  padding: 5px;
+  max-width:30%;
+}
