@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #ACE0D9;
+  background: url(assets/img/fondo.gif);
+  background-repeat: all;
 }
 
 header, .main, footer {
