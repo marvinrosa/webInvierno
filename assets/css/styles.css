@@ -1,23 +1,25 @@
 * {
    margin: 0;
    padding:0;
-  
 }
 
 body {
-  background: url(assets/img/fondo.gif);
-  background-repeat: all;
+  background-image: url(../img/fondo.gif);
+  background-repeat: repeat;
 }
 
 header, .main, footer {
-  
   width: 90%;
   max-width: 1000px;
   margin: 20px auto;
 }
+.main{
+  /*border: 1px solid gray;*/
+  top: ;
+}
 
 header nav {
-  background: #BDB7A1;
+  background: #FFE559;
    overflow: hidden;
 }
 
@@ -29,7 +31,7 @@ header  nav ul li {
   float:left;
 }
 
-header nav ul li a {
+header nav ul li a, footer ul li a {
   padding: 10px 20px;
   display:block;
   text-decoration: none;
@@ -38,13 +40,6 @@ header nav ul li a {
 footer ul li {
   float:left;
   list-style: none;
-}
-
-footer ul li a {
-  padding: 10px 20px;
-  display:inline-block;
-  text-decoration: none;
-
 }
 
 .main .articles {
@@ -58,32 +53,62 @@ footer ul li a {
 }
 
 aside {
-  width:30%;
-  float: left;
+  width:28%;
+  float: right;
 }
 
 footer{
   background: red;
   top:50px;
+ /* border: 1px solid gray;*/
 }
 
 .card{
- 
-  max-width: 30%;
+  
+  max-width: 500px;
   height: auto;
+  background: lightblue;
 
 }
 
 .text{
-  background-color: blue;
+  background-color: #789FBF;
   height: 15px;
   padding: 5px;
-  max-width:500px; 
+  width: auto;
 }
 
 .content{
   background-color: white;
-  height: 15px;
+  height: auto;
+  padding: 10px;
+  width: auto;
+}
+
+input{
+  display: inline-block;
+}
+
+div p u{
+  color: blue;
+}
+
+.articles{
+  padding:0px 5px;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+.image{
   padding: 5px;
-  max-width:30%;
+}
+
+div p{
+  margin: 5px;
+}
+
+footer ul li a{
+  color: green;
 }
